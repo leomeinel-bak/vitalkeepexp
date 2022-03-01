@@ -16,35 +16,28 @@
  * along with this program. If not, see https://github.com/TamrielNetwork/VitalKeepExp/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft.utils.commands;
+package com.tamrielnetwork.vitalkeepexp.listeners;
 
-import com.tamrielnetwork.vitalcraft.utils.Chat;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.jetbrains.annotations.NotNull;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.PlayerDeathEvent;
 
-public class Cmd {
-	public static boolean isArgsLengthNotEqualTo(@NotNull CommandSender sender, @NotNull String[] args, int length) {
-		if (args.length != length) {
-			Chat.sendMessage(sender, "cmd");
-			return true;
+public class PlayerDeath implements Listener {
+
+	@EventHandler
+	public void onPlayerDeath(PlayerDeathEvent event) {
+
+		Player player = event.getPlayer();
+		if (!player.hasPermission("vitalkeepexp.keep")) {
+			return;
 		}
-		return false;
+
+		int newLevel = player.getLevel();
+
+		event.setNewLevel(newLevel);
+		event.setDroppedExp(0);
+
 	}
 
-	public static boolean isNotPermitted(@NotNull CommandSender sender, @NotNull String perm) {
-		if (!sender.hasPermission(perm)) {
-			Chat.sendMessage(sender, "no-perms");
-			return true;
-		}
-		return false;
-	}
-
-	public static boolean isInvalidSender(@NotNull CommandSender sender) {
-		if (!(sender instanceof Player)) {
-			Chat.sendMessage(sender, "player-only");
-			return true;
-		}
-		return false;
-	}
 }

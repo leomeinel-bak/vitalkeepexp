@@ -16,27 +16,18 @@
  * along with this program. If not, see https://github.com/TamrielNetwork/VitalKeepExp/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft;
+package com.tamrielnetwork.vitalkeepexp;
 
-import com.tamrielnetwork.vitalcraft.commands.VitalCraftCmd;
-import com.tamrielnetwork.vitalcraft.files.Messages;
+import com.tamrielnetwork.vitalkeepexp.listeners.PlayerDeath;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.Objects;
-
-public final class VitalCraft extends JavaPlugin {
-
-	private Messages messages;
+public final class VitalKeepExp extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
 
-		Objects.requireNonNull(getCommand("vitalcraft")).setExecutor(new VitalCraftCmd());
-
-		saveDefaultConfig();
-
-		messages = new Messages();
+		registerListeners();
 
 		Bukkit.getLogger().info("VitalCraft v" + this.getDescription().getVersion() + " enabled");
 		Bukkit.getLogger().info("Copyright (C) 2022 Leopold Meinel");
@@ -51,8 +42,9 @@ public final class VitalCraft extends JavaPlugin {
 		Bukkit.getLogger().info("VitalCraft v" + this.getDescription().getVersion() + " disabled");
 	}
 
-	public Messages getMessages() {
-		return messages;
+	private void registerListeners() {
+
+		getServer().getPluginManager().registerEvents(new PlayerDeath(), this);
 	}
 
 }
