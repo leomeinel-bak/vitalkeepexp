@@ -1,4 +1,4 @@
-name: VitalCraft
+name: VitalKeepExp
 version: @version@
 main: com.tamrielnetwork.vitalkeepexp.VitalKeepExp
 api-version: 1.17

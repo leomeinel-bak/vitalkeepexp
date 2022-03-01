@@ -29,17 +29,17 @@ public final class VitalKeepExp extends JavaPlugin {
 
 		registerListeners();
 
-		Bukkit.getLogger().info("VitalCraft v" + this.getDescription().getVersion() + " enabled");
+		Bukkit.getLogger().info("VitalKeepExp v" + this.getDescription().getVersion() + " enabled");
 		Bukkit.getLogger().info("Copyright (C) 2022 Leopold Meinel");
 		Bukkit.getLogger().info("This program comes with ABSOLUTELY NO WARRANTY!");
 		Bukkit.getLogger().info("This is free software, and you are welcome to redistribute it under certain conditions.");
-		Bukkit.getLogger().info("See https://github.com/TamrielNetwork/VitalCraft/blob/main/LICENSE for more details.");
+		Bukkit.getLogger().info("See https://github.com/TamrielNetwork/VitalKeepExp/blob/main/LICENSE for more details.");
 	}
 
 	@Override
 	public void onDisable() {
 
-		Bukkit.getLogger().info("VitalCraft v" + this.getDescription().getVersion() + " disabled");
+		Bukkit.getLogger().info("VitalKeepExp v" + this.getDescription().getVersion() + " disabled");
 	}
 
 	private void registerListeners() {
