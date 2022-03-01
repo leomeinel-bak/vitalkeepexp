@@ -5,3 +5,7 @@ api-version: 1.17
 authors: [ Tamriel Network ]
 website: https://tamriel.site
 description: Gives players the ability to keep exp on death.
+permissions:
+  vitalkeepexp.keep:
+    description: "Permission to keep exp on death"
+    default: op
