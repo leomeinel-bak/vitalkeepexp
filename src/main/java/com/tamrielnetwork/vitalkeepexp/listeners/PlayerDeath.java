@@ -33,9 +33,7 @@ public class PlayerDeath implements Listener {
 			return;
 		}
 
-		int newLevel = player.getLevel();
-
-		event.setNewLevel(newLevel);
+		event.setKeepLevel(true);
 		event.setDroppedExp(0);
 
 	}
