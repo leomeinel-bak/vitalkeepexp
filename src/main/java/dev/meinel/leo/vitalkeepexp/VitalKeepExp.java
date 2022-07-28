@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalKeepExp/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalkeepexp;
+package dev.meinel.leo.vitalkeepexp;
 
-import com.tamrielnetwork.vitalkeepexp.listeners.PlayerDeath;
+import dev.meinel.leo.vitalkeepexp.listeners.PlayerDeath;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 

@@ -16,7 +16,7 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalKeepExp/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalkeepexp.listeners;
+package dev.meinel.leo.vitalkeepexp.listeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

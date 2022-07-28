@@ -1,6 +1,6 @@
 name: VitalKeepExp
 version: @version@
-main: com.tamrielnetwork.vitalkeepexp.VitalKeepExp
+main: dev.meinel.leo.vitalkeepexp.VitalKeepExp
 api-version: 1.17
 authors: [ Leopold Meinel ]
 description: Gives players the ability to keep exp on death.
