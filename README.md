@@ -10,7 +10,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/TamrielNetwork/VitalKeepExp">
+  <a href="https://github.com/LeoMeinel/VitalKeepExp">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     Keep exp on Spigot and Paper
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalKeepExp"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/VitalKeepExp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalKeepExp">View Demo</a>
+    <a href="https://github.com/LeoMeinel/VitalKeepExp">View Demo</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalKeepExp/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/VitalKeepExp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalKeepExp/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/VitalKeepExp/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -90,7 +90,7 @@ To get the plugin running on your server follow these simple steps.
 
 ## Roadmap
 
-See the [open issues](https://github.com/TamrielNetwork/VitalKeepExp/issues) for a list of proposed features (and known
+See the [open issues](https://github.com/LeoMeinel/VitalKeepExp/issues) for a list of proposed features (and known
 issues).
 
 <!-- CONTRIBUTING -->
@@ -120,7 +120,7 @@ Leopold Meinel - [@TamrielN](https://twitter.com/TamrielN) - Twitter
 
 Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - eMail
 
-Project Link - [VitalKeepExp](https://github.com/TamrielNetwork/VitalKeepExp) - GitHub
+Project Link - [VitalKeepExp](https://github.com/LeoMeinel/VitalKeepExp) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -130,26 +130,26 @@ Project Link - [VitalKeepExp](https://github.com/TamrielNetwork/VitalKeepExp) - 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/TamrielNetwork/VitalKeepExp?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalKeepExp?style=for-the-badge
 
-[contributors-url]: https://github.com/TamrielNetwork/VitalKeepExp/graphs/contributors
+[contributors-url]: https://github.com/LeoMeinel/VitalKeepExp/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/VitalKeepExp?label=Forks&style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalKeepExp?label=Forks&style=for-the-badge
 
-[forks-url]: https://github.com/TamrielNetwork/VitalKeepExp/network/members
+[forks-url]: https://github.com/LeoMeinel/VitalKeepExp/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/VitalKeepExp?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalKeepExp?style=for-the-badge
 
-[stars-url]: https://github.com/TamrielNetwork/VitalKeepExp/stargazers
+[stars-url]: https://github.com/LeoMeinel/VitalKeepExp/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/VitalKeepExp?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalKeepExp?style=for-the-badge
 
-[issues-url]: https://github.com/TamrielNetwork/VitalKeepExp/issues
+[issues-url]: https://github.com/LeoMeinel/VitalKeepExp/issues
 
-[license-shield]: https://img.shields.io/github/license/TamrielNetwork/VitalKeepExp?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalKeepExp?style=for-the-badge
 
-[license-url]: https://github.com/TamrielNetwork/VitalKeepExp/blob/main/LICENSE
+[license-url]: https://github.com/LeoMeinel/VitalKeepExp/blob/main/LICENSE
 
-[quality-shield]: https://img.shields.io/codefactor/grade/github/TamrielNetwork/VitalKeepExp?style=for-the-badge
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalKeepExp?style=for-the-badge
 
-[quality-url]: https://www.codefactor.io/repository/github/TamrielNetwork/VitalKeepExp
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalKeepExp
