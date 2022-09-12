@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -67,12 +68,12 @@ This plugin is perfect for any server wanting their players not to lose levels w
 
 ### Features
 
-* Keep exp on death.
+- Keep exp on death.
 
 ### Built With
 
-* [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
-* [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
+- [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
+- [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
 
 <!-- GETTING STARTED -->
 
@@ -84,7 +85,7 @@ To get the plugin running on your server follow these simple steps.
 
 1. Permission: `vitalkeepexp.keep`
 
-* Description: Keep your experience on death
+- Description: Keep your experience on death
 
 <!-- ROADMAP -->
 
@@ -124,30 +125,19 @@ Project Link - [VitalKeepExp](https://github.com/LeoMeinel/VitalKeepExp) - GitHu
 
 ### Acknowledgements
 
-* [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
+- [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalKeepExp?style=for-the-badge
-
 [contributors-url]: https://github.com/LeoMeinel/VitalKeepExp/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalKeepExp?label=Forks&style=for-the-badge
-
 [forks-url]: https://github.com/LeoMeinel/VitalKeepExp/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalKeepExp?style=for-the-badge
-
 [stars-url]: https://github.com/LeoMeinel/VitalKeepExp/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalKeepExp?style=for-the-badge
-
 [issues-url]: https://github.com/LeoMeinel/VitalKeepExp/issues
-
 [license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalKeepExp?style=for-the-badge
-
 [license-url]: https://github.com/LeoMeinel/VitalKeepExp/blob/main/LICENSE
-
 [quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalKeepExp?style=for-the-badge
-
 [quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalKeepExp
