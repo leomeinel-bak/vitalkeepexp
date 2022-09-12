@@ -16,15 +16,15 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
 
 public class PlayerDeath
-		implements Listener {
+        implements Listener {
 
-	@EventHandler
-	public void onPlayerDeath(PlayerDeathEvent event) {
-		Player player = event.getPlayer();
-		if (!player.hasPermission("vitalkeepexp.keep")) {
-			return;
-		}
-		event.setKeepLevel(true);
-		event.setDroppedExp(0);
-	}
+    @EventHandler
+    public void onPlayerDeath(PlayerDeathEvent event) {
+        Player player = event.getPlayer();
+        if (!player.hasPermission("vitalkeepexp.keep")) {
+            return;
+        }
+        event.setKeepLevel(true);
+        event.setDroppedExp(0);
+    }
 }
